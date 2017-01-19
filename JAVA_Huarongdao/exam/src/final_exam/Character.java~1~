@@ -1,0 +1,20 @@
+package final_exam;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+//代表华容道里面不同角色（button）的类,button中自带名字、位置、大小、颜色等变量
+class Character extends JButton implements MouseListener{
+  int number;
+  int focus;
+
+  Character(int n,String s,int xx,int yy,int width,int height,HuaRongRoad hrr){
+      setName(s);
+      number=n;
+      setBounds(xx,yy,width,height);
+      setBackground(Color.pink);
+      focus=0;
+  }
+
+}

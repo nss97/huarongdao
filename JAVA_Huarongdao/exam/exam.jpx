@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="final_exam.Start"/>
+  <property category="runtime.0" name="appserver.ejbJarsSaved" value="1"/>
+  <property category="runtime.0" name="appserver.parameters" value="-jts -jns -jss -jdb"/>
+  <property category="runtime.0" name="appserver.servername" value="standard"/>
+  <property category="runtime.0" name="appserver.vmparameters" value="-Dvbroker.agent.port=14000 -Djava.library.path=/BorlandEnterpriseServer/lib;/BorlandEnterpriseServer/bin -Dborland.enterprise.licenseDir=/BorlandEnterpriseServer/var/servers/DESKTOP-59AFSDK/adm -Dejb.module_preload=true"/>
+  <property category="runtime.0" name="jsprunner.launchuri" value="/"/>
+  <property category="runtime.0" name="test.harness" value="junit.textui.TestRunner"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value="BNU"/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2016"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value="\u534e\u5bb9\u9053"/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="JDK" value="java 1.6.0-b105"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="JBCL"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value="final exam"/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="sys" name="uidesign.size.final_exam.HuaRongRoad" value="516,803"/>
+  <property category="sys" name="uidesign.size.final_exam.Start" value="286,407"/>
+  <property category="sys" name="uidesign.size.final_exam.winning" value="384,318"/>
+  <node name="Application" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="extraDeployRoots.1" value="C:final_exam.*"/>
+    <property category="archiving" name="libraryStates.1" value="3:JBCL"/>
+    <property category="archiving" name="manifestMainClass" value="final_exam.Start"/>
+    <property category="archiving" name="targetPath" value="exam.jar"/>
+  </node>
+  <node name="Application 2" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="extraDeployRoots.1" value="C:final_exam.*"/>
+    <property category="archiving" name="libraryStates.1" value="1:JBCL"/>
+    <property category="archiving" name="manifestMainClass" value="final_exam.Start"/>
+    <property category="archiving" name="targetPath" value="exam2.jar"/>
+  </node>
+  <file path="src/final_exam/Character.java"/>
+  <file path="exam.html"/>
+  <file path="src/final_exam/HuaRongRoad.java"/>
+  <file path="src/final_exam/HuaRongRoad2.java"/>
+  <file path="src/final_exam/HuaRongRoad3.java"/>
+  <file path="src/final_exam/rules.java"/>
+  <file path="src/final_exam/Start.java"/>
+  <file path="src/final_exam/winning.java"/>
+</project>

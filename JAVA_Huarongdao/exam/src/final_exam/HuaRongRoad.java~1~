@@ -1,0 +1,38 @@
+package final_exam;
+
+import java.awt.*;
+import javax.swing.JFrame;
+import com.borland.jbcl.layout.*;
+
+/**
+ * <p>Title: final exam</p>
+ * <p>Description: 华容道</p>
+ * <p>Copyright: Copyright (c) 2016</p>
+ * <p>Company: BNU</p>
+ * @author 徐静乐
+ * @version 1.0
+ */
+
+public class HuaRongRoad extends JFrame {
+  XYLayout xYLayout1 = new XYLayout();
+
+  public HuaRongRoad() {
+    try {
+      jbInit();
+    }
+    catch(Exception e) {
+      e.printStackTrace();
+    }
+  }
+  public static void main(String[] args) {//主函数，用于创建Frame
+    HuaRongRoad huarongroad = new HuaRongRoad();
+    huarongroad.setSize(600,600);//大小
+    huarongroad.setVisible(true);//可见性
+  }
+  private void jbInit() throws Exception {//初始化函数
+    this.getContentPane().setBackground(Color.white);//背景颜色
+    this.setDefaultCloseOperation(3);//关闭按钮选项
+    this.setTitle("华容道游戏");//标题
+    this.getContentPane().setLayout(xYLayout1);//布局器
+  }
+}
